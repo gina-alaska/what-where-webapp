@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ImiqMap</title>
+  <title>GINA What Where</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -9,6 +9,9 @@
 <body>
   <section id="content">
     <%= yield %>
+  </section>
+  <section id="footer">
+    <%= image_tag 'GINA_poweredby.png' %>
   </section>
 </body>
 </html>
